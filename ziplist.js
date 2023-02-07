@@ -11,6 +11,7 @@ function zipList(list1, list2) {
 console.log(zipList(letter, number));
 
 function zipListSimpleWay(list1, list2) {
+  console.log('hello');
   return _.flatten(list1, list2);
 }
 
